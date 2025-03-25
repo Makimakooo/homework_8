@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    background: #f0f0f0;git branch -M main
+    padding: 10px;
+    margin: 0 auto 20px auto;
+    overflow: hidden;
+}
+
+.box {
+    height: 60px;
+    background: gray;
+    margin: 5px;
+}
+
+.left {
+    float: left;
+    width: 30%;
+}
+
+.right {
+    float: right;
+    width: 25%;
+}
+
+.small {
+    width: 20%;
+    height: 40px;
+}
+
+.big {
+    width: 30%;
+    height: 80px;
+    margin-left: 170px;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.center .box {
+    float: left;
+    margin: px;
+}
